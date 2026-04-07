@@ -121,9 +121,6 @@ export default function ChatArea({ chat, onUpdateChat, onNewChat }: ChatAreaProp
 
         const config: any = {
           systemInstruction: SYSTEM_INSTRUCTION + extraInstruction,
-          generationConfig: {
-            responseMimeType: "text/plain",
-          }
         };
 
         if (tools.length > 0) {

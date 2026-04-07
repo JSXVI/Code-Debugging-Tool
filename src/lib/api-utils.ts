@@ -47,7 +47,7 @@ export function getErrorMessage(error: any): string {
   }
 
   // Model availability
-  if (status === 404 || message.includes('404') || message.includes('not_found') || message.includes('not found') || message.includes('model')) {
+  if (status === 404 || message.includes('not found for api') || message.includes('not_found') || (message.includes('404') && !message.includes('page'))) {
     return "### 🛰️ Model Unavailable\nThe neural engine is currently unreachable or the model version has changed. Please try again.";
   }
 
