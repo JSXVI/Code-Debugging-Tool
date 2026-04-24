@@ -26,7 +26,6 @@
     -   Added **Intelligent Error Handling** with user-friendly Markdown alerts for rate limits, safety filters, and context limits.
 
 ### ✨ New Features
--   **`/search` Command**: Added an explicit command to trigger Google Search grounding, making standard chat faster and more token-efficient.
 -   **Smart History**: Optimized token usage by limiting context to the last 4 messages and only including images for the most recent prompt.
 
 ### 🛠️ UI/UX Improvements
