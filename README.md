@@ -11,9 +11,7 @@
 -   **⚡ Real-time Interaction**: Instant, streaming responses powered by the latest Gemini 3 Flash models.
 -   **🛡️ Robust Error Handling**: Intelligent error categorization and automatic exponential backoff retries for transient network issues.
 -   **⌨️ Enhanced Input**: 
-    -   **`/search` Command**: Explicitly trigger Google Search for any query.
     -   **Large Payloads**: Support for up to 7,000 characters per message.
-    -   **Multi-line Support**: Shift+Enter for new lines, Enter to send.
 -   **🎨 Atmospheric UI**: A sleek, dark-themed interface with a responsive sidebar and smooth animations.
 
 ## 📜 Changelog (v1.2.0)
